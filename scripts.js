@@ -14,5 +14,6 @@ function addTask() {
 }
 
 function deleteTask(button) {
-    // code goes here
+    const contentBox = button.closest("#contentBox"); 
+    contentBox.remove()
 }

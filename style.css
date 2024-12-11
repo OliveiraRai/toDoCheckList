@@ -9,19 +9,16 @@ body {
     background-color: #353535;
 }
 
-#mainContainer {
-    border: 1px solid red;  
+#mainContainer {  
     width: 40%;
     margin: 0 auto;
 }
 
 #contentContainer {
-    border: 1px solid yellow;
     margin-top: 45vh;
 }
 
 #inputContainer {
-    border: 1px solid blue;
     border-radius: 9999px;
     padding: 10px;
     background-color: #202020;
@@ -94,3 +91,5 @@ body {
 #buttons input {
     transform: scale(1.5);
 }
+
+/* responsivity */
