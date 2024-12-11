@@ -10,21 +10,15 @@
     <div id="mainContainer">
         <div id="contentContainer">
             <div id="inputContainer">
-                <input type="text" placeholder="O que vai fazer hoje?">
-                <button>+</button>
+                <input type="text" id="input" placeholder="O que vai fazer hoje?">
+                <button onclick="addTask()">+</button>
             </div>
-            <div id="contentBox">
-                <div id="title">
-                    <h4>Título</h4>
-                </div>
-                <div id="buttons">
-                    <button><ion-icon name="trash-outline"></ion-icon></button>
-                    <input type="checkbox">
-                </div>
+            <div id="taskContainer">
+
             </div>
         </div>
     </div>
-
+    <script src="./scripts.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
