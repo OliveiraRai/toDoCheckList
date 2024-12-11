@@ -11,9 +11,12 @@ function addTask() {
                                 <input type="checkbox">
                             </div>
                         </div>`
+    
+    document.getElementById("input").value = ""
 }
 
 function deleteTask(button) {
     const contentBox = button.closest("#contentBox"); 
     contentBox.remove()
 }
+

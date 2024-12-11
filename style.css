@@ -32,6 +32,7 @@ body {
     border: none;
     font-weight: bold;
     color: white;
+    margin-right: 10px;
 }
 
 #inputContainer button {
@@ -93,3 +94,30 @@ body {
 }
 
 /* responsivity */
+
+@media (max-width: 1086px) {
+    #inputContainer {
+        display: flex;
+    }
+}
+
+@media (max-width: 702px) {
+    
+}
+
+@media (max-width: 550px) {
+    #inputContainer {
+        min-width: 200px;
+    }
+
+    #contentContainer {
+        margin-top: 5vh;
+    }
+}
+
+@media (max-width: 470px) {
+    #mainContainer {
+        display: flex;
+        justify-content: center;
+    }
+}
